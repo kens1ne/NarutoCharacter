@@ -69,7 +69,7 @@ const CharacterList = () => {
     return (
         <div className="max-w-7xl mx-auto my-4">
             <h1 className="title text-white text-center text-4xl font-bold uppercase">Naruto Characters</h1>
-            <div className="village-button flex justify-center">
+            <div className="village-button grid grid-cols-6">
                 <button className="p-1 text-[10px] bg-rose-600 rounded mx-2 my-1 text-white" onClick={handleGetAll}>
                     All
                 </button>
